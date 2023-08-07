@@ -45,13 +45,16 @@ const SubscribeBar = styled.div`
 `;
 
 const EmailInput = styled.input`
-  width: 100%;
+  width: calc(100% - 30px); // Adjust the width to accommodate the button
   padding: 15px;
   font-size: 18px;
   border-radius: 10px 0 0 10px;
+  border: 1px solid black; // Set the border explicitly
+  box-sizing: border-box; // Include padding and border in width/height calculations
+
   &:focus {
     outline: none;
-    border: 1px solid black; // Change as needed
+    border: 1px solid black; // Keep the border on focus
   }
 `;
 
@@ -60,8 +63,17 @@ const SubscribeButton = styled.button`
   font-size: 18px;
   cursor: pointer;
   border-radius: 0 10px 10px 0;
-  margin-left: -2px;
+  background-color: #2C3539; // Gunmetal gray color
+  color: #FFF; // Text color set to white for readability
+  border: 1px solid black; // Black border around the button
+  box-sizing: border-box; // Include padding and border in width/height calculations
+
+  &:focus {
+    outline: none;
+    border: 1px solid black; // Keep the border on focus
+  }
 `;
+
 
 const PastIssuesLink = styled.a`
   position: absolute;
@@ -71,6 +83,10 @@ const PastIssuesLink = styled.a`
   text-align: right;
   text-decoration: none;
   color: #000; // Adjust the color as needed
+
+  &:hover {
+    text-decoration: underline; // Adds underline on hover
+  }
 `;
 
 const Header = () => {
@@ -86,7 +102,7 @@ const Header = () => {
           <SubscribeButton>Subscribe</SubscribeButton>
         </SubscribeBar>
       </ContentContainer>
-      <PastIssuesLink href="https://daily-build.beehiiv.com/">View Past Issues</PastIssuesLink>
+      <PastIssuesLink href="https://daily-build.beehiiv.com/">view past issues</PastIssuesLink>
     </Wrapper>
   );
 };

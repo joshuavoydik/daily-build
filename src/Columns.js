@@ -23,6 +23,10 @@ const LastRowWrapper = styled.div`
   margin-bottom: 100px; // Adjust as needed
 `;
 
+const Spacer = styled.div`
+  height: 100px; // Adjust this value as needed for padding between rows
+`;
+
 const Columns = ({ columnsContent }) => (
   <Wrapper>
     {columnsContent.map((content, index) => (
@@ -40,6 +44,7 @@ const Rows = () => (
         "Super useful tips to build awesome new tech projects that will make my portfolio shine.",
       ]}
     />
+    <Spacer /> {/* Add the spacer here */}
     <Columns
       columnsContent={[
         "I'm a product manager and the step-by-step guides in Daily Build empower me to confidently build new features that users will love.",
