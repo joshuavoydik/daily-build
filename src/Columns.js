@@ -14,9 +14,10 @@ const Column = styled.div`
   box-sizing: border-box; // include padding in width calculation
   font-size: 20px; // set the desired font size
   font-weight: 500; // Set the desired font weight here
-  
+
   @media (max-width: 768px) {
     width: 100%; // stacks columns on smaller screens
+    margin-bottom: 20px; // adds space between the stacked columns
   }
 `;
 
