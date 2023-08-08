@@ -61,7 +61,6 @@ const Rows = () => (
         </>,
       ]}
     />
-   // <Spacer /> {/* Add the spacer here */}
     <Columns
   columnsContent={[
     <>
