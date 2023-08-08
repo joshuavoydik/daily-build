@@ -11,15 +11,25 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     background-color: #FEDE87;
     font-family: 'PT Sans', sans-serif;
-    color: #190000; // Set a darker gray color here
+    color: #190000;
+  }
+
+  @media (max-width: 768px) {
+    body {
+      padding: 20px; // Reduced padding for mobile devices
+    }
   }
 `;
 
 const Container = styled.div`
   display: flex;
-  flex-direction: column; // stack children vertically
+  flex-direction: column;
   min-height: 100vh;
-  padding: 50px 100px 100px 100px; // 20px horizontal padding
+  padding: 50px 100px 100px 100px;
+
+  @media (max-width: 768px) {
+    padding: 20px; // Reduced padding for mobile devices
+  }
 `;
 
 const Content = styled.div`

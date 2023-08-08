@@ -15,26 +15,46 @@ const LogoIcon = styled.img`
 const Title = styled.h1`
   text-align: left;
   font-size: 3.5em;
-  font-weight: 900; // Set the desired font weight here
+
+  @media (max-width: 768px) {
+    font-size: 2.5em; // Smaller font-size for mobile
+  }
+
+  font-weight: 900;
 `;
 
 const ContentContainer = styled.div`
-  width: 60%; // Adjust this to the desired width
-  margin-left: 0; // Set the left margin to 0 to align the content to the left
+  width: 60%;
+
+  @media (max-width: 768px) {
+    width: 100%; // Full width for mobile devices
+  }
+
+  margin-left: 0;
 `;
 
 const Subtitle = styled.p`
   text-align: left;
   font-size: 26px;
+
+  @media (max-width: 768px) {
+    font-size: 20px; // Smaller font-size for mobile
+  }
+
   margin-bottom: 30px;
-  max-width: 100%; // Ensure that the subtitle doesn't exceed the container's width
-  font-weight: 500; // Set the desired font weight here
+  max-width: 100%;
+  font-weight: 500;
 `;
 
 const AdditionalText = styled.p`
   text-align: left;
-  font-size: 20px; // Adjust as needed
-  font-weight: 600; // Set the desired font weight here
+  font-size: 20px;
+
+  @media (max-width: 768px) {
+    font-size: 18px; // Smaller font-size for mobile
+  }
+
+  font-weight: 600;
 `;
 
 const SubscribeBar = styled.div`
@@ -95,10 +115,16 @@ const HighlightedText = styled.span`
 `;
 
 const IframeWrapper = styled.div`
-  height: 52px; // Matching the height of the new iframe
+  height: 52px;
+  width: 100%; // Make iframe responsive
   border-radius: 0px;
   margin: 0;
   background-color: transparent;
+
+  iframe {
+    width: 100%;
+    max-width: 750px; // Keep the maximum width
+  }
 `;
 
 const Header = () => {
