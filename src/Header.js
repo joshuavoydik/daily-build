@@ -82,11 +82,11 @@ const PastIssuesLink = styled.a`
   right: 20px;
   font-size: 18px;
   text-align: right;
-  text-decoration: none;
+  text-decoration: underline; // Always underline
   color: #000; // Adjust the color as needed
 
   &:hover {
-    text-decoration: underline; // Adds underline on hover
+    text-decoration: none; // Removes underline on hover
   }
 `;
 
