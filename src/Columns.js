@@ -51,29 +51,26 @@ const Rows = () => (
     <Columns
       columnsContent={[
         <>
-          <HighlightedText><b>"This newsletter gets my creative juices flowing</b></HighlightedText> so I can dream up bold new marketing campaigns." —John J.
+          <HighlightedText><b>"This newsletter gets my creative juices flowing</b></HighlightedText> so I can dream up new marketing campaigns." —John J.
         </>,
         <>
-          <HighlightedText>"Daily Build gives me fun new skills</HighlightedText> to whip up slick web apps for my side projects." —Sarah H.
+          "Daily Build gives me fun new skills to <HighlightedText><b>whip up slick web apps for my side projects."</b></HighlightedText> —Sarah H.
         </>,
         <>
-          <HighlightedText>"Super useful tips that help make</HighlightedText> my portfolio shine!!" —Massimo M.
+          <HighlightedText><b>"Suuuper useful tips that help make</b></HighlightedText> my portfolio shine!!" —Massimo M.
         </>,
       ]}
     />
     <Columns
   columnsContent={[
     <>
-      "I'm a product manager and <HighlightedText><b>the quick step-by-step guides</b></HighlightedText>
-      "in Daily Build help me build new features that users will love." —Jaya K.
+      "I'm a product manager and <HighlightedText><b>I love that Daily Build shows me how to prototype new features."</b></HighlightedText> —Jaya K.
   </>,
     <>
-      <HighlightedText>"The coding snippets in Daily Build</HighlightedText>
-      allowed me to build a cool website for my startup." —Liz H.
+      <HighlightedText><b>"The coding prompts</b></HighlightedText> helped me to build a cool website for my startup." —Liz H.
     </>,
     <>
-      <HighlightedText>"Love this! I made a super slick data dashboard</HighlightedText>
-      and some financial spreadsheets." —Nidhi J.
+      "Love this! <HighlightedText><b>I made a super slick data dashboard</b></HighlightedText> and some financial spreadsheets with fancy formulas." —Nidhi J.
     </>,
   ]}
 />
