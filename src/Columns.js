@@ -57,7 +57,7 @@ const Rows = () => (
           "Daily Build gives me fun new skills to <HighlightedText><b>whip up slick web apps for my side projects."</b></HighlightedText> —Sarah H.
         </>,
         <>
-          <HighlightedText><b>"Suuuper useful tips that help make</b></HighlightedText> my portfolio shine!!" —Massimo M.
+          <HighlightedText><b>"Super useful tips that help make</b></HighlightedText> my portfolio shine!!" —Massimo M.
         </>,
       ]}
     />
