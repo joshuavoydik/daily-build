@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import slackIcon from './slack.png'; // assuming the images are in the same directory as this file
+import discordIcon from './discord.png'; // assuming the images are in the same directory as this file
 
 const Wrapper = styled.div`
   display: flex;
@@ -19,7 +19,9 @@ const Icon = styled.img`
 
 const Footer = () => (
     <Wrapper>
-      <Icon src={slackIcon} alt="Icon 1" />
+      <a href="https://discord.gg/qvRKejkRUF" target="_blank" rel="noopener noreferrer">
+        <Icon src={discordIcon} alt="Icon 1" />
+      </a>
       {/* Add more icons as needed */}
     </Wrapper>
   );
