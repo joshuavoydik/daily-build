@@ -34,7 +34,7 @@ const Subtitle = styled.p`
 
 const AdditionalText = styled.p`
   text-align: left;
-  font-size: 18px; // Adjust as needed
+  font-size: 20px; // Adjust as needed
   font-weight: 600; // Set the desired font weight here
 `;
 

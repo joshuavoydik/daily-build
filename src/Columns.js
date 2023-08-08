@@ -12,7 +12,7 @@ const Column = styled.div`
   width: calc(33.333% - 40px); // adjusts for padding
   padding: 0px;
   box-sizing: border-box; // include padding in width calculation
-  font-size: 18px; // set the desired font size
+  font-size: 20px; // set the desired font size
   font-weight: 500; // Set the desired font weight here
   
   @media (max-width: 768px) {
