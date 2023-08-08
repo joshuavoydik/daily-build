@@ -9,8 +9,9 @@ import { createGlobalStyle } from 'styled-components';
 const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
-    background-color: #fdebd0;
+    background-color: #FEDE87;
     font-family: 'PT Sans', sans-serif;
+    color: #190000; // Set a darker gray color here
   }
 `;
 

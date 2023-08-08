@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import logoIcon from './logo.png';
 
 const Wrapper = styled.div`
-  background-color: #fdebd0;
+  background-color: #FEDE87;
   position: relative; // Added this line
 `;
 
@@ -15,8 +15,8 @@ const LogoIcon = styled.img`
 
 const Title = styled.h1`
   text-align: left;
-  font-size: 3em;
-  font-weight: bold;
+  font-size: 3.5em;
+  font-weight: 900; // Set the desired font weight here
 `;
 
 const ContentContainer = styled.div`
@@ -29,11 +29,13 @@ const Subtitle = styled.p`
   font-size: 26px;
   margin-bottom: 30px;
   max-width: 100%; // Ensure that the subtitle doesn't exceed the container's width
+  font-weight: 500; // Set the desired font weight here
 `;
 
 const AdditionalText = styled.p`
   text-align: left;
   font-size: 18px; // Adjust as needed
+  font-weight: 600; // Set the desired font weight here
 `;
 
 const SubscribeBar = styled.div`
@@ -63,7 +65,7 @@ const SubscribeButton = styled.button`
   font-size: 18px;
   cursor: pointer;
   border-radius: 0 10px 10px 0;
-  background-color: #2C3539; // Gunmetal gray color
+  background-color: #190000; // Gunmetal gray color
   color: #FFF; // Text color set to white for readability
   border: 1px solid black; // Black border around the button
   box-sizing: border-box; // Include padding and border in width/height calculations
@@ -73,7 +75,6 @@ const SubscribeButton = styled.button`
     border: 1px solid black; // Keep the border on focus
   }
 `;
-
 
 const PastIssuesLink = styled.a`
   position: absolute;
@@ -95,8 +96,8 @@ const Header = () => {
       <LogoIcon src={logoIcon} alt="Logo" />
       <Title>Daily Build</Title>
       <ContentContainer>
-        <Subtitle>Building new things daily using AI tools. Learn how to build apps, products, workflows, and much more!</Subtitle>
-        <AdditionalText>Your additional text here.</AdditionalText>
+        <Subtitle>Build new things daily <b>using the latest AI tools</b>. Learn how to make apps, icons, & products in minutes.</Subtitle>
+        <AdditionalText>Join thousands of builders today.</AdditionalText>
         <SubscribeBar>
           <EmailInput type="email" placeholder="Enter your email" />
           <SubscribeButton>Subscribe</SubscribeButton>

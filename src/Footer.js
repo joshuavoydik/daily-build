@@ -8,7 +8,7 @@ const Wrapper = styled.div`
   align-items: center;
   padding: 20px;
   margin-top: 100px; // Add this line to create space above the footer
-  background-color: #fdebd0; // soft orange color to match the rest of the site
+  background-color: #FEDE87; // soft orange color to match the rest of the site
 `;
 
 const Icon = styled.img`
