@@ -107,7 +107,7 @@ const Header = () => {
       <LogoIcon src={logoIcon} alt="Logo" />
       <Title>Daily Build</Title>
       <ContentContainer>
-        <Subtitle>Build new things daily<HighlightedText><b>using the latest AI tools</b></HighlightedText>. Learn how to make apps, icons, widgets, & products in minutes.</Subtitle>
+        <Subtitle><HighlightedText><b>We build new things daily using the latest AI tools.</b></HighlightedText> Learn how to make apps, icons, widgets, & products in minutes.</Subtitle>
         <AdditionalText>Join thousands of builders today.</AdditionalText>
         <SubscribeBar>
           <IframeWrapper>

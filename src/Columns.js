@@ -46,7 +46,7 @@ const Rows = () => (
     <Columns
       columnsContent={[
         <>
-          <HighlightedText>"This newsletter gets my creative juices flowing</HighlightedText>
+          <HighlightedText><b>"This newsletter gets my creative juices flowing</b></HighlightedText>
           so I can dream up bold new marketing campaigns."
         </>,
         <>
