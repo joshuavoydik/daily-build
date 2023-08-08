@@ -1,4 +1,5 @@
 body {
+  background: linear-gradient(to bottom, #f5e3a8, #f88f66); /* Example Gradient */
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import logoIcon from './logo.png';
 
 const Wrapper = styled.div`
-  background-color: #FEDE87;
   position: relative; // Added this line
 `;
 
