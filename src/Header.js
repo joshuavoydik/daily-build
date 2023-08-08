@@ -95,6 +95,13 @@ const HighlightedText = styled.span`
   padding: 2px 5px; // Padding around the highlighted text
 `;
 
+const IframeWrapper = styled.div`
+  height: 52px; // Matching the height of the new iframe
+  border-radius: 0px;
+  margin: 0;
+  background-color: transparent;
+`;
+
 const Header = () => {
   return (
     <Wrapper>
@@ -104,8 +111,9 @@ const Header = () => {
         <Subtitle>Build new things daily<HighlightedText><b>using the latest AI tools</b></HighlightedText>. Learn how to make apps, icons, & products in minutes.</Subtitle>
         <AdditionalText>Join thousands of builders today.</AdditionalText>
         <SubscribeBar>
-          <EmailInput type="email" placeholder="Enter your email" />
-          <SubscribeButton>Subscribe</SubscribeButton>
+          <IframeWrapper>
+            <iframe src="https://embeds.beehiiv.com/087f1df0-d099-4a61-8df9-e68ef05fef2a?slim=true" data-test-id="beehiiv-embed" height="52" width="750" frameBorder="0" scrolling="no" style={{ margin: '0', borderRadius: '0px', backgroundColor: 'transparent' }}></iframe>
+          </IframeWrapper>
         </SubscribeBar>
       </ContentContainer>
       <PastIssuesLink href="https://daily-build.beehiiv.com/">view past issues</PastIssuesLink>
@@ -114,6 +122,12 @@ const Header = () => {
 };
 
 export default Header;
+
+
+
+
+
+
 
 
 
