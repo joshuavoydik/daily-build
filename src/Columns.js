@@ -51,33 +51,30 @@ const Rows = () => (
     <Columns
       columnsContent={[
         <>
-          <HighlightedText><b>"This newsletter gets my creative juices flowing</b></HighlightedText>
-          so I can dream up bold new marketing campaigns."
+          <HighlightedText><b>"This newsletter gets my creative juices flowing</b></HighlightedText> so I can dream up bold new marketing campaigns." —John J.
         </>,
         <>
-          <HighlightedText>"Daily Build gives me fun new skills</HighlightedText>
-          to whip up slick web apps for my side projects."
+          <HighlightedText>"Daily Build gives me fun new skills</HighlightedText> to whip up slick web apps for my side projects." —Sarah H.
         </>,
         <>
-          <HighlightedText>"Super useful tips that help make</HighlightedText>
-          my portfolio shine!!"
+          <HighlightedText>"Super useful tips that help make</HighlightedText> my portfolio shine!!" —Massimo M.
         </>,
       ]}
     />
-    <Spacer /> {/* Add the spacer here */}
+   // <Spacer /> {/* Add the spacer here */}
     <Columns
   columnsContent={[
     <>
       "I'm a product manager and <HighlightedText><b>the quick step-by-step guides</b></HighlightedText>
-      "in Daily Build help me build new features that users will love."
+      "in Daily Build help me build new features that users will love." —Jaya K.
   </>,
     <>
       <HighlightedText>"The coding snippets in Daily Build</HighlightedText>
-      allowed me to build a cool website for my startup."
+      allowed me to build a cool website for my startup." —Liz H.
     </>,
     <>
       <HighlightedText>"Love this! I made a super slick data dashboard</HighlightedText>
-      and some financial spreadsheets."
+      and some financial spreadsheets." —Nidhi J.
     </>,
   ]}
 />
