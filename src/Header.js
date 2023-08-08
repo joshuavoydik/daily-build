@@ -90,13 +90,18 @@ const PastIssuesLink = styled.a`
   }
 `;
 
+const HighlightedText = styled.span`
+  background-color: #FFD700; // Your highlight color here
+  padding: 2px 5px; // Padding around the highlighted text
+`;
+
 const Header = () => {
   return (
     <Wrapper>
       <LogoIcon src={logoIcon} alt="Logo" />
       <Title>Daily Build</Title>
       <ContentContainer>
-        <Subtitle>Build new things daily <b>using the latest AI tools</b>. Learn how to make apps, icons, & products in minutes.</Subtitle>
+        <Subtitle>Build new things daily<HighlightedText><b>using the latest AI tools</b></HighlightedText>. Learn how to make apps, icons, & products in minutes.</Subtitle>
         <AdditionalText>Join thousands of builders today.</AdditionalText>
         <SubscribeBar>
           <EmailInput type="email" placeholder="Enter your email" />
