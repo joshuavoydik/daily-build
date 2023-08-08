@@ -110,7 +110,7 @@ const PastIssuesLink = styled.a`
 
 const HighlightedText = styled.span`
   background-color: #FFD700; // Your highlight color here
-  padding: 2px 5px; // Padding around the highlighted text
+  padding: 0px 0px; // Padding around the highlighted text
 `;
 
 const IframeWrapper = styled.div`
