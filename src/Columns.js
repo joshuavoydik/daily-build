@@ -19,6 +19,10 @@ const Column = styled.div`
     width: 100%; // stacks columns on smaller screens
     margin-bottom: 20px; // adds space between the stacked columns
   }
+
+  &:last-child {
+    margin-bottom: 0; // removes margin from the last column
+  }
 `;
 
 const LastRowWrapper = styled.div`
@@ -26,12 +30,12 @@ const LastRowWrapper = styled.div`
 `;
 
 const Spacer = styled.div`
-  height: 100px; // Adjust this value as needed for padding between rows
+  height: 20px; // Adjust this value as needed for padding between rows
 `;
 
 const HighlightedText = styled.span`
   background-color: #FFD700; // Your highlight color here
-  padding: 2px 5px; // Padding around the highlighted text
+  padding: 0px 0px; // Padding around the highlighted text
 `;
 
 const Columns = ({ columnsContent }) => (
@@ -64,9 +68,9 @@ const Rows = () => (
     <Columns
   columnsContent={[
     <>
-      <HighlightedText>"I'm a product manager and the quick step-by-step guides</HighlightedText>
-      in Daily Build help me build new features that users will love."
-    </>,
+      "I'm a product manager and <HighlightedText><b>the quick step-by-step guides</b></HighlightedText>
+      "in Daily Build help me build new features that users will love."
+  </>,
     <>
       <HighlightedText>"The coding snippets in Daily Build</HighlightedText>
       allowed me to build a cool website for my startup."
