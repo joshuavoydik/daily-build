@@ -8,9 +8,8 @@ const Wrapper = styled.div`
 `;
 
 const LogoIcon = styled.img`
-  width: 80px;
-  height: 80px;
-  margin: 0 0 20px 0;
+  width: 100px;
+  height: 100px;
 `;
 
 const Title = styled.h1`
