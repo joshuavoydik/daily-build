@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     background-color: #FEDE87;
     font-family: 'PT Sans', sans-serif;
-    color: #190000;
+    color: #FFFFFF;
   }
 
   @media (max-width: 768px) {
