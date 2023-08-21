@@ -132,8 +132,12 @@ const Header = () => {
       <LogoIcon src={logoIcon} alt="Logo" />
       <Title>Daily Build</Title>
       <ContentContainer>
-        <Subtitle><HighlightedText><b>Daily projects using the latest AI tools.</b></HighlightedText> Learn how to make apps, icons, widgets, & products in minutes.</Subtitle>
-        <AdditionalText>Join tons of builders & smart people today.</AdditionalText>
+        <Subtitle>
+          <HighlightedText><b>Quick tips to build better & faster using AI—daily in your inbox! </b></HighlightedText>
+          <br /> {/* Adding a line break */}
+          Build apps, icons, widgets, & designs in minutes.
+        </Subtitle>
+        <AdditionalText>Join thousands of builders today.</AdditionalText>
         <SubscribeBar>
           <IframeWrapper>
             <iframe src="https://embeds.beehiiv.com/087f1df0-d099-4a61-8df9-e68ef05fef2a?slim=true" data-test-id="beehiiv-embed" height="52" width="750" frameBorder="0" scrolling="no" style={{ margin: '0', borderRadius: '0px', backgroundColor: 'transparent' }}></iframe>
