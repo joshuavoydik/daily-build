@@ -130,7 +130,7 @@ const Header = () => {
   return (
     <Wrapper>
       <LogoIcon src={logoIcon} alt="Logo" />
-      <Title>Daily Build</Title>
+      <Title>DailyBuild AI</Title>
       <ContentContainer>
         <Subtitle>
           <HighlightedText><b>Quick tips to build better & faster using AI—daily in your inbox! </b></HighlightedText>
