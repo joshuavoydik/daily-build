@@ -135,6 +135,7 @@ const Header = () => {
         <Subtitle>
           <HighlightedText><b>Quick tips to build better & faster using AI—daily in your inbox! </b></HighlightedText>
           <br /> {/* Adding a line break */}
+          <br />
           Showcasing the latest AI tools by building apps, icons, widgets, & designs in minutes.
         </Subtitle>
         <AdditionalText>Join thousands of builders today.</AdditionalText>
