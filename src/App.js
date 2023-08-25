@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Separator from './Separator';
-import Columns from './Columns';
+// import Columns from './Columns';
 import styled from 'styled-components';
 import Footer from './Footer';
 import { createGlobalStyle } from 'styled-components';
@@ -48,7 +48,7 @@ const App = () => (
       <Content>
         <Header />
         <Separator />
-        <Columns />
+         {/* <Columns /> normally here */}
         <Spacer /> {/* Add the spacer here */}
       </Content>
       <Footer />
