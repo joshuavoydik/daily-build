@@ -133,12 +133,12 @@ const Header = () => {
       <Title>Daily Build</Title>
       <ContentContainer>
         <Subtitle>
-          <HighlightedText><b>Quick tips to build better & faster using AI—daily in your inbox! </b></HighlightedText>
+          <HighlightedText><b>Follow us as we learn how to build AI tools in public. </b></HighlightedText>
           <br /> {/* Adding a line break */}
           <br />
-          Showcasing the latest AI tools by building apps, icons, widgets, & designs in minutes.
+          We feature new projects, showcase AI tools, updates & news, and provide you with our findings.
         </Subtitle>
-        <AdditionalText>Join smart founders, investors, engineers, product managers & ops people today.</AdditionalText>
+        <AdditionalText>Get updates daily in your inbox.</AdditionalText>
         <SubscribeBar>
           <IframeWrapper>
             <iframe src="https://embeds.beehiiv.com/087f1df0-d099-4a61-8df9-e68ef05fef2a?slim=true" data-test-id="beehiiv-embed" height="52" width="750" frameBorder="0" scrolling="no" style={{ margin: '0', borderRadius: '0px', backgroundColor: 'transparent' }}></iframe>

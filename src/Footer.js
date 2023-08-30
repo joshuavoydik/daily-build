@@ -21,7 +21,6 @@ const Footer = () => (
       <a href="https://discord.gg/qvRKejkRUF" target="_blank" rel="noopener noreferrer">
         <Icon src={discordIcon} alt="Icon 1" />
       </a>
-      {/* Add more icons as needed */}
     </Wrapper>
   );
 
