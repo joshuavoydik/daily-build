@@ -138,7 +138,7 @@ const Header = () => {
           <br />
           Showcasing the latest AI tools by building apps, icons, widgets, & designs in minutes.
         </Subtitle>
-        <AdditionalText>Join other founders, investors, engineers, product managers & ops people today.</AdditionalText>
+        <AdditionalText>Join smart founders, investors, engineers, product managers & ops people today.</AdditionalText>
         <SubscribeBar>
           <IframeWrapper>
             <iframe src="https://embeds.beehiiv.com/087f1df0-d099-4a61-8df9-e68ef05fef2a?slim=true" data-test-id="beehiiv-embed" height="52" width="750" frameBorder="0" scrolling="no" style={{ margin: '0', borderRadius: '0px', backgroundColor: 'transparent' }}></iframe>
