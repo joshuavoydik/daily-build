@@ -136,7 +136,7 @@ const Header = () => {
           <HighlightedText><b>Follow us as we learn how to build with AI tools in public. </b></HighlightedText>
           <br /> {/* Adding a line break */}
           <br />
-          We feature new projects, showcase AI tools, updates & news, and provide you with our findings.
+          We feature new projects, showcase AI tools, provide updates & news, and present our findings.
         </Subtitle>
         <AdditionalText>Get updates daily in your inbox.</AdditionalText>
         <SubscribeBar>
