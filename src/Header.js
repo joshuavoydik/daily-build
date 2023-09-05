@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import logoIcon from './logo.png';
+import joshuaImage from './joshua2.jpeg';
 
 const Wrapper = styled.div`
   position: relative; // Added this line
@@ -108,6 +109,39 @@ const PastIssuesLink = styled.a`
   }
 `;
 
+const JoshuaImage = styled.img`
+  position: absolute; 
+  right: 100px;  
+  top: 150px;
+  width: auto;
+  height: 160px;
+  border-radius: 5px; 
+
+  @media (max-width: 768px) {
+    position: relative;  // To stack it normally
+    right: auto;
+    top: auto;
+    margin: 0 auto;  // Center the image
+    height: 100px;  // Adjust size as needed
+  }
+`;
+
+const ImageCaption = styled.p`
+  position: absolute; 
+  right: 128px;
+  top: 320px;
+  font-size: 16px;
+  text-align: right;
+
+  @media (max-width: 768px) {
+    position: relative;  // To stack it normally
+    right: auto;
+    top: auto;
+    text-align: center;  // Center the caption
+    margin-top: 10px;  // Space between image and caption
+  }
+`;
+
 const HighlightedText = styled.span`
   background-color: #FFD700; // Your highlight color here
   padding: 0px 0px; // Padding around the highlighted text
@@ -130,13 +164,10 @@ const Header = () => {
   return (
     <Wrapper>
       <LogoIcon src={logoIcon} alt="Logo" />
-      <Title>Daily Build</Title>
+      <Title>Joshua's Daily Build</Title>
       <ContentContainer>
         <Subtitle>
-          <HighlightedText><b>Follow us as we learn how to build with AI tools in public. </b></HighlightedText>
-          <br /> {/* Adding a line break */}
-          <br />
-          We feature new projects, showcase AI tools, provide updates & news, and present our findings.
+          <HighlightedText><b> Follow me as I publicly explore AI tools and share my learnings with you.</b></HighlightedText> I feature new projects, showcase AI tools, provide updates & news, and present my findings.
         </Subtitle>
         <AdditionalText>Get updates daily in your inbox.</AdditionalText>
         <SubscribeBar>
@@ -146,6 +177,8 @@ const Header = () => {
         </SubscribeBar>
       </ContentContainer>
       <PastIssuesLink href="https://daily-build.beehiiv.com/">view past issues</PastIssuesLink>
+      <JoshuaImage src={joshuaImage} alt="Joshua" /> {/* Place it here */}
+      <ImageCaption>Hey, I'm Joshua!</ImageCaption>
     </Wrapper>
   );
 };
