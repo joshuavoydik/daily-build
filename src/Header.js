@@ -114,7 +114,7 @@ const JoshuaImage = styled.img`
   right: 100px;  
   top: 150px;
   width: auto;
-  height: 160px;
+  height: 180px;
   border-radius: 5px; 
 
   @media (max-width: 768px) {
@@ -128,7 +128,7 @@ const JoshuaImage = styled.img`
 
 const ImageCaption = styled.p`
   position: absolute; 
-  right: 128px;
+  right: 140px;
   top: 320px;
   font-size: 16px;
   text-align: right;
@@ -173,7 +173,7 @@ const Header = () => {
   return (
     <Wrapper>
       <LogoIcon src={logoIcon} alt="Logo" />
-      <Title>Joshua's 'Daily Build'</Title>
+      <Title>Joshua's Daily Build</Title>
       <ContentContainer>
         <Subtitle>
           <HighlightedText><b> Follow me as I publicly explore AI tools and share my learnings with you daily.</b></HighlightedText> I feature new projects, showcase AI tools, provide updates & news, and present my findings.
@@ -187,8 +187,8 @@ const Header = () => {
       </ContentContainer>
       <PastIssuesLink href="https://daily-build.beehiiv.com/">view past issues</PastIssuesLink>
       <JoshuaImage src={joshuaImage} alt="Joshua" />
-      <p style={{ position: 'absolute', right: '128px', top: '320px', fontSize: '16px', textAlign: 'right' }}>
-        Hey, I'm <StyledLink href="https://twitter.com/joshuavoydik" target="_blank" rel="noopener noreferrer">Joshua</StyledLink>
+      <p style={{ position: 'absolute', right: '132px', top: '326px', fontSize: '16px', textAlign: 'right' }}>
+        👋 Hey, I'm <StyledLink href="https://twitter.com/joshuavoydik" target="_blank" rel="noopener noreferrer">Joshua</StyledLink>
       </p>
     </Wrapper>
   );
