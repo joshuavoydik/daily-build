@@ -160,6 +160,15 @@ const IframeWrapper = styled.div`
   }
 `;
 
+const StyledLink = styled.a`
+  color: inherit;  // Use the same color as the surrounding text
+  text-decoration: underline;  // Underline to indicate a hyperlink
+
+  &:hover {
+    color: #1DA1F2;  // Change color on hover to Twitter blue or any other color you like
+  }
+`;
+
 const Header = () => {
   return (
     <Wrapper>
@@ -177,8 +186,10 @@ const Header = () => {
         </SubscribeBar>
       </ContentContainer>
       <PastIssuesLink href="https://daily-build.beehiiv.com/">view past issues</PastIssuesLink>
-      <JoshuaImage src={joshuaImage} alt="Joshua" /> {/* Place it here */}
-      <ImageCaption>Hey, I'm Joshua!</ImageCaption>
+      <JoshuaImage src={joshuaImage} alt="Joshua" />
+      <p style={{ position: 'absolute', right: '128px', top: '320px', fontSize: '16px', textAlign: 'right' }}>
+        Hey, I'm <StyledLink href="https://twitter.com/joshuavoydik" target="_blank" rel="noopener noreferrer">Joshua</StyledLink>
+      </p>
     </Wrapper>
   );
 };
