@@ -173,10 +173,10 @@ const Header = () => {
   return (
     <Wrapper>
       <LogoIcon src={logoIcon} alt="Logo" />
-      <Title>Joshua's Daily Build</Title>
+      <Title>Daily Build</Title>
       <ContentContainer>
         <Subtitle>
-          <HighlightedText><b> Follow me as I publicly explore AI tools and share my learnings with you daily.</b></HighlightedText> I feature new projects, showcase AI tools, provide updates & news, and present my findings.
+          Hey, I'm Joshua! <HighlightedText><b>Follow me as I publicly explore AI tools and share my learnings with you daily.</b></HighlightedText> I feature new projects, showcase AI tools, provide updates & news, and present my findings.
         </Subtitle>
         <AdditionalText>Get updates daily in your inbox.</AdditionalText>
         <SubscribeBar>
@@ -186,10 +186,6 @@ const Header = () => {
         </SubscribeBar>
       </ContentContainer>
       <PastIssuesLink href="https://daily-build.beehiiv.com/">view past issues</PastIssuesLink>
-      <JoshuaImage src={joshuaImage} alt="Joshua" />
-      <p style={{ position: 'absolute', right: '132px', top: '326px', fontSize: '16px', textAlign: 'right' }}>
-        👋 Hey, I'm <StyledLink href="https://twitter.com/joshuavoydik" target="_blank" rel="noopener noreferrer">Joshua</StyledLink>
-      </p>
     </Wrapper>
   );
 };
